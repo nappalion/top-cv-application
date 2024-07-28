@@ -1,8 +1,8 @@
-function FancyInput({ label, name, handleChange }) {
+function FancyInput({ label, name, value, handleChange }) {
   return (
     <label>
       {label}
-      <input name={name} onChange={handleChange} />
+      <input name={name} value={value} onChange={handleChange} />
     </label>
   );
 }

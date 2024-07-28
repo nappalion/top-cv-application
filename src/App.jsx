@@ -39,16 +39,19 @@ function App() {
             <FancyInput
               label={"Name"}
               name={"name"}
+              value={fields.name}
               handleChange={handleChange}
             />
             <FancyInput
               label={"Email"}
               name={"email"}
+              value={fields.email}
               handleChange={handleChange}
             />
             <FancyInput
               label={"Phone Number"}
               name={"phoneNum"}
+              value={fields.phoneNum}
               handleChange={handleChange}
             />
           </div>
@@ -56,16 +59,19 @@ function App() {
             <FancyInput
               label={"School Name"}
               name={"schoolName"}
+              value={fields.schoolName}
               handleChange={handleChange}
             />
             <FancyInput
               label={"Title of Study"}
               name={"titleStudy"}
+              value={fields.titleStudy}
               handleChange={handleChange}
             />
             <FancyInput
               label={"Date of Study"}
               name={"dateStudy"}
+              value={fields.dateStudy}
               handleChange={handleChange}
             />
           </div>
@@ -73,26 +79,31 @@ function App() {
             <FancyInput
               label={"Company Name"}
               name={"companyName"}
+              value={fields.companyName}
               handleChange={handleChange}
             />
             <FancyInput
               label={"Position Title"}
               name={"positionTitle"}
+              value={fields.positionTitle}
               handleChange={handleChange}
             />
             <FancyInput
               label={"Main Responsibilities"}
               name={"mainResponsibilities"}
+              value={fields.mainResponsibilities}
               handleChange={handleChange}
             />
             <FancyInput
               label={"Start Date"}
               name={"startDate"}
+              value={fields.startDate}
               handleChange={handleChange}
             />
             <FancyInput
               label={"End Date"}
               name={"endDate"}
+              value={fields.endDate}
               handleChange={handleChange}
             />
           </div>
