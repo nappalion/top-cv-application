@@ -1,0 +1,15 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  background-color: #2f2f2f;
+  margin: 10px;
+  padding: 10px;
+}
+
+label {
+  padding: 10px;
+}
+
+input {
+  margin-left: 10px;
+}
